@@ -16,4 +16,4 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 
 # Simpan model
-joblib.dump(model, "model_kelulusan.pkl", protocol=4)
+joblib.load(model, "model_kelulusan.pkl", protocol=4)
